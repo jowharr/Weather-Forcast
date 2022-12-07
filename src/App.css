@@ -1,0 +1,68 @@
+
+.outer{
+    background-color: white;
+    box-shadow: 2px 5px 10px 2px #340634;
+    width: 80%;
+    height: 450px;
+    margin-left: 10%;
+    margin-top: 2%;
+    border-radius: 5px;
+    /* box-shadow: #340634; */
+    display: inline-block;
+}
+.inner-box{
+    background-color:#340634 ;
+    height: 50%;
+    width: 98%;
+    margin: 1%;
+    border-radius: 5px;
+}
+.box-text{
+    text-align: center;
+    font-size: 65px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #bc8f8f;
+    padding-top: 5%;
+}
+.place-box{
+    width: 100%;
+    display: block;
+
+}
+.place{
+    text-align: center;
+    /* background-color: aqua; */
+    font-family:  'Open Sans', sans-serif;
+}
+.card-deck{
+    width: 86%;
+    margin-left: 7%;
+    /* box-shadow: 2px 2px 4px #340634; */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+}
+.card{
+   box-shadow: 2px 5px 10px 2px #340634 ; 
+}
+.card-text-3{
+    font-size: 50px;
+}
+.card-text-5{
+    font-size: 18px;
+}
+.box{
+    width: 30%;
+    height: 140px;
+    background-color: brown;
+    margin: 10%;
+    text-align: center;
+    color: whitesmoke;
+    padding: 7%;
+}
