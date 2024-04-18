@@ -9,15 +9,12 @@ function App() {
   useEffect(() => {
     const weatherURL = "http://api.openweathermap.org/data/2.5/forecast?zip=673001,IN&units=imperial&APPID=4f35aa6018a7c52c068ab9fb74cf1576"
     fetch(weatherURL).then((res) => res.json()).then((data) => {
-      console.log(data);
       const list = data.list.filter((reading) =>
         reading.dt_txt.includes("12:00:00")
       );
       setdailyData(list)
     });
   }, [])
-
-
 
   return (
     <div className="outer">
@@ -34,7 +31,6 @@ function App() {
 
             {dailyData.map((data, key) =>
               <Weather data={data} name={"name"} />
-
             )}
 
           </div>
